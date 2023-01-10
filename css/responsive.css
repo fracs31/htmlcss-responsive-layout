@@ -20,10 +20,21 @@
     .hero-card__img img {
         width: 50%;
     }
+    /* Riga sezione Planning */
+    .planning .row {
+        flex-wrap: wrap;
+        gap: 20px;
+    }
+    /* Colonne sezione Planning */
+    .planning .col-40,
+    .planning .col-60 {
+        flex-basis: 100%;
+    }
 }
 
 /* Smartphone */
 @media only screen and (max-width: 600px) {
+    /* Colonne in generale */
     [class^="col-"] {
         flex-basis: 100%;
     }
