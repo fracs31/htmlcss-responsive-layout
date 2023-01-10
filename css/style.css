@@ -16,16 +16,56 @@
     font-family: 'Roboto', sans-serif;
 }
 
+/* Liste */
 ul, ol, menu {
     list-style: none;
 }
 
+/* Ancora */
 a {
     text-decoration: none;
     color: currentColor;
 }
 
+/* Container */
 .container {
     max-width: 1140px;
     margin: 0px auto;
+}
+
+/* Bottone */
+.button {
+    padding: 10px 15px;
+    border-radius: 999px;
+}
+
+/* Bottone bianco */
+.white {
+    background-color: white;
+    color: black;
+}
+
+/* Header */
+.main-header {
+    background-color: var(--blue);
+    color: white;
+    padding: 20px 0px;
+}
+
+/* Navbar */
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+/* Lista della Navbar */
+.navbar ul {
+    display: flex;
+    gap: 20px;
+}
+
+/* Hamburger */
+.hamburger {
+    display: none;
 }
