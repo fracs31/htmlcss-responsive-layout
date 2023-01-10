@@ -4,6 +4,7 @@
 :root {
     --blue: #0084FD;
     --light-blue: #B5DDFF;
+    --light-grey: #404448;
     --violet: #9792E4;
     --orange: #FDC15F;
     --light-black: #333333;
@@ -45,6 +46,13 @@ a {
     color: black;
 }
 
+/* Bottone blue */
+.blue {
+    background-color: var(--blue);
+    color: white;
+    padding: 10px 15px;
+}
+
 /* Header */
 .main-header {
     background-color: var(--blue);
@@ -68,4 +76,74 @@ a {
 /* Hamburger */
 .hamburger {
     display: none;
+}
+
+/* Riga dell'Hero Box */
+.hero-box .row {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 25px;
+    padding-top: 50px;
+    padding-bottom: 100px;
+}
+
+/* Colonna grande i 2/3 della riga */
+.col-2 {
+    flex-basis: calc((100% * (2/3)) - 25px);
+}
+
+/* Colonna grande 1/3 della riga */
+.col-3 {
+    flex-basis: calc((100% / 3) - 25px);
+}
+
+/* Carta dell'Hero */
+.hero-card {
+    background-color: var(--light-blue);
+    display: flex;
+    padding: 10px;
+    border-radius: 6px;
+    height: 100%;
+}
+
+/* Hero Card nelle colonne più piccole */
+.col-3 .hero-card {
+    flex-direction: column-reverse;
+    text-align: center;
+}
+
+/* Testo della Hero Card */
+.hero-card__text {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+/* Bottone dalla Hero Card*/
+.hero-card__text .button {
+    width: max-content;
+    font-weight: bold;
+    letter-spacing: 3px;
+}
+
+/* Sottotitolo testo Hero Card */
+.hero-card__text h2 {
+    color: var(--blue);
+}
+
+/* Paragrafo Hero Card */
+.hero-card__text p {
+    color: var(--light-grey);
+    line-height: 24px;
+}
+
+/* Immagine Hero */
+.hero-card__img img {
+    width: 100%;
+}
+
+/* Icona della Hero Card */
+.hero-card__img span {
+    font-size: 72px;
+    color: var(--blue);
 }
