@@ -84,17 +84,26 @@ a {
     display: none;
 }
 
+/* Colore di background per le sezioni che si alternano */
 .main-content section:nth-child(2n) {
     background-color: var(--violet);
 }
 
-/* Riga dell'Hero Box */
-.hero-box .row {
-    display: flex;
-    flex-wrap: wrap;
-    gap: 25px;
+/* Sezione Hero */
+.hero {
     padding-top: 50px;
     padding-bottom: 100px;
+}
+
+/* Riga */
+.row {
+    display: flex;
+}
+
+/* Riga dell'Hero Box */
+.hero-box .row {
+    flex-wrap: wrap;
+    gap: 25px;
 }
 
 /* Colonna grande i 2/3 della riga */
@@ -111,7 +120,7 @@ a {
 .hero-card {
     background-color: var(--light-blue);
     display: flex;
-    padding: 10px;
+    padding: 20px;
     border-radius: 16px;
     height: 100%;
 }
@@ -157,4 +166,82 @@ a {
 .hero-card__img span {
     font-size: 72px;
     color: var(--blue);
+}
+
+/* Sezione Planning */
+.planning {
+    padding-top: 115px;
+    padding-bottom: 65px;
+}
+
+/* Colonna grande il 60% */
+.col-60 {
+    flex-basis: 60%;
+}
+
+/* Colonna grande il 40% */
+.col-40 {
+    flex-basis: 40%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+}
+
+/* Carta Planning */
+.planning-card {
+    display: flex;
+    flex-direction: column;
+}
+
+.planning-card__text {
+    display: flex;
+    flex-direction: column;
+}
+
+/* Immagine della Carta Planning */
+.planning-card__img img {
+    width: 100%;
+}
+
+/* Carta Planning presente nella colonna al 60% */
+.col-60 .planning-card {
+    color: white;
+    gap: 115px;
+}
+
+/* Testo Carta Planning nella colonna al 60%  */
+.col-60 .planning-card__text {
+    gap: 60px;
+}
+
+/* Carta nella colonna al 40% */
+.col-40 .planning-card {
+    text-align: center;
+    background-color: white;
+    border-radius: 36px;
+    padding: 10px;
+}
+
+/* Testo Carta Planning nella colonna al 40%  */
+.col-40 .planning-card__text {
+    align-items: center;
+    gap: 20px;
+}
+
+/* Paragrafo Carta Planning */
+.col-40 .planning-card__text p {
+    font-style: italic;
+}
+
+/* Span a forma di cerchio */
+.col-40 .planning-card__text span {
+    background-color: var(--violet);
+    border-radius: 999px;
+    display: block;
+    height: 40px;
+    width: 40px;
+    padding: 10px;
+    text-align: center;
+    line-height: 24px;
+    font-size: 18px;
 }
