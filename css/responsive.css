@@ -42,12 +42,15 @@
     .feedback-card {
         flex-direction: column;
     }
+    /* Blocco immagine Carta Feedback */
     .feedback-card__img {
         text-align: center;
     }
+    /* Immagine Carta Feedback */
     .feedback-card__img img {
         width: 50%;
     }
+    /* Testo Carta Feedback */
     .feedback-card__text {
         padding: 0px;
         text-align: center;
