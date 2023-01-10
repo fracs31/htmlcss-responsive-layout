@@ -102,13 +102,14 @@ a {
     background-color: var(--light-blue);
     display: flex;
     padding: 10px;
-    border-radius: 6px;
+    border-radius: 16px;
     height: 100%;
 }
 
 /* Hero Card nelle colonne più piccole */
 .col-3 .hero-card {
     flex-direction: column-reverse;
+    justify-content: flex-end;
     text-align: center;
 }
 
