@@ -245,3 +245,78 @@ a {
     line-height: 24px;
     font-size: 18px;
 }
+
+/* Sezione Testimonials */
+.testimonials {
+    padding-top: 65px;
+    padding-bottom: 110px;
+}
+
+/* Titoli della sezione Testimonials */
+.testimonials-box__titles {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    padding-bottom: 20px;
+}
+
+/* Sottotitolo sezione Testimonials */
+.testimonials-box__titles h2 {
+    font-size: 14px;
+}
+
+/* Sottotitolo sezione Testimonials */
+.testimonials-box__titles h3 {
+    font-size: 28px;
+    color: var(--violet);
+}
+
+/* Feedback */
+.testiomonials-box__feedbacks {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+/* Carta Feedback */
+.feedback-card {
+    flex-basis: 100%;
+    background-color: var(--violet);
+    border-radius: 36px;
+    padding: 20px;
+    display: flex;
+    align-items: center;
+}
+
+/* Blocco immagine della Carta Feedback */
+.feedback-card__img {
+    flex-basis: 20%;
+    border-radius: 100%;
+}
+
+/* Immagine della Carta Feedback */
+.feedback-card__img img {
+    width: 100%;
+    border-radius: 999px;
+    aspect-ratio: 1/1;
+    object-fit: cover;
+}
+
+/* Testo della Carta Feedback */
+.feedback-card__text {
+    flex-basis: 80%;
+    color: white;
+    padding-left: 50px;
+}
+
+/* Citazione */
+.quote {
+    line-height: 28px;
+    padding-bottom: 20px;
+}
+
+/* Autore della citazione */
+.author {
+    font-weight: bold;
+}
