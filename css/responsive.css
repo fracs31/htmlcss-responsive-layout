@@ -1,0 +1,21 @@
+/* Tablet */
+@media only screen and (max-width: 991px) {
+    /* Container */
+    .container {
+        width: 100%;
+        margin: 0px;
+    }
+    /* Header */
+    .main-header {
+        padding: 20px;
+    }
+    /* Lista della Navbar */
+    .navbar ul {
+        display: none;
+    }
+
+    /* Hamburger */
+    .hamburger {
+        display: block;
+    }
+}
