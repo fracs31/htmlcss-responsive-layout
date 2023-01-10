@@ -38,4 +38,18 @@
     [class^="col-"] {
         flex-basis: 100%;
     }
+    /* Carta dei feedback */
+    .feedback-card {
+        flex-direction: column;
+    }
+    .feedback-card__img {
+        text-align: center;
+    }
+    .feedback-card__img img {
+        width: 50%;
+    }
+    .feedback-card__text {
+        padding: 0px;
+        text-align: center;
+    }
 }
