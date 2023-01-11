@@ -1,9 +1,5 @@
 /* Tablet */
 @media only screen and (max-width: 991px) {
-    /* Header */
-    .main-header {
-        padding: 20px;
-    }
     /* Lista della Navbar */
     .navbar ul {
         display: none;
@@ -16,9 +12,10 @@
     .hero-card {
         flex-wrap: wrap;
     }
-    /* Immagine Hero */
-    .hero-card__img img {
-        width: 50%;
+    /* Colonna doppia Hero */
+    .col-2 .hero-card__text,
+    .col-2 .hero-card__img {
+        flex-basis: 100%;
     }
     /* Riga sezione Planning */
     .planning .row {

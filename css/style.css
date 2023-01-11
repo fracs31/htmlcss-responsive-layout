@@ -30,8 +30,9 @@ a {
 
 /* Container */
 .container {
-    max-width: 1140px;
+    max-width: 1204px;
     margin: 0px auto;
+    padding: 0px 32px;
 }
 
 /* Container piccolo */
@@ -103,17 +104,18 @@ a {
 /* Riga dell'Hero Box */
 .hero-box .row {
     flex-wrap: wrap;
-    gap: 25px;
+    row-gap: 24px;
+    margin: 0px -12px;
 }
 
 /* Colonna grande i 2/3 della riga */
 .col-2 {
-    flex-basis: calc((100% * (2/3)) - 25px);
+    flex-basis: calc(100% / 3*2);
 }
 
 /* Colonna grande 1/3 della riga */
 .col-3 {
-    flex-basis: calc((100% / 3) - 25px);
+    flex-basis: calc(100% / 3);
 }
 
 /* Carta dell'Hero */
@@ -121,6 +123,7 @@ a {
     background-color: var(--light-blue);
     display: flex;
     padding: 20px;
+    margin: 0px 12px;
     border-radius: 16px;
     height: 100%;
 }
@@ -137,6 +140,11 @@ a {
     display: flex;
     flex-direction: column;
     gap: 20px;
+}
+
+/* Testo della Hero Card grande i 2/3 */
+.col-2 .hero-card__text {
+    flex-basis: 50%;
 }
 
 /* Bottone dalla Hero Card*/
@@ -157,9 +165,17 @@ a {
     line-height: 24px;
 }
 
-/* Immagine Hero */
+/* Immagine Hero Card */
+.col-2 .hero-card__img {
+    flex-basis: 50%;
+}
+
+/* Immagine utilizzata nella Hero Card */
 .hero-card__img img {
-    width: 100%;
+    max-width: 100%;
+    text-align: center;
+    margin-bottom: -24px;
+    display: block;
 }
 
 /* Icona della Hero Card */
@@ -193,6 +209,7 @@ a {
     flex-direction: column;
 }
 
+/* Testo Carta Planning */
 .planning-card__text {
     display: flex;
     flex-direction: column;
