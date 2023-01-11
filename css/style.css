@@ -410,3 +410,18 @@ a {
     color: var(--light-grey);
     line-height: 24px;
 }
+
+/* Sezione About Us */
+.about-us {
+    padding-top: 100px;
+    padding-bottom: 150px;
+}
+
+/* Colonna grande il 70% */
+.col-70 {
+    flex-basis: 70%;
+}
+
+.about-us__title {
+
+}
