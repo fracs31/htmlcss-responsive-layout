@@ -427,6 +427,16 @@ a {
     flex-basis: 70%;
 }
 
+/* Colonna al 70% di About Us */
+.about-us .col-70 {
+    padding-right: 50px;
+}
+
+/* Colonna al 30% di About Us */
+.about-us .col-3 {
+    padding-left: 50px;
+}
+
 /* Blocco titolo About Us */
 .about-us__title {
     color: var(--violet);
@@ -444,6 +454,21 @@ a {
     padding-bottom: 65px;
 }
 
+/* Blocco immagine About Us */
+.about-us__img {
+    position: relative;
+    padding-bottom: 20px;
+}
+
+/* Span immagine About Us */
+.about-us__img span {
+    position: absolute;
+    right: 0px;
+    top: 0px;
+    font-size: 82px;
+    color: var(--violet);
+}
+
 /* Immagine About Us */
 .about-us__img img {
     width: 100%;
@@ -452,6 +477,7 @@ a {
     object-fit: cover
 }
 
+/* Paragrafo della colonna al 30% di About Us */
 .about-us-box .col-3 .about-us__text p {
     font-size: 24px;
     font-weight: bold;

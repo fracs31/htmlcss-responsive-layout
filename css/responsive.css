@@ -31,6 +31,10 @@
     .benefits .col-3 {
         flex-basis: 50%;
     }
+    /* Span immagine About Us */
+    .about-us__img span {
+        font-size: 48px;
+    }
 }
 
 /* Smartphone */
@@ -56,5 +60,18 @@
     .feedback-card__text {
         padding: 0px;
         text-align: center;
+    }
+    /* Riga Abous Us Box */
+    .about-us-box .row {
+        flex-wrap: wrap;
+    }    
+    /* Colonne About Us */
+    .about-us .col-70,
+    .about-us .col-3 {
+        padding: 0px;
+    }
+    /* Span immagine About Us */
+    .about-us__img span {
+        font-size: 72px;
     }
 }
