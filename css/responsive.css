@@ -27,6 +27,10 @@
     .planning .col-right {
         flex-basis: 100%;
     }
+    /* Colonne sezione Benefits */
+    .benefits .col-3 {
+        flex-basis: 50%;
+    }
 }
 
 /* Smartphone */

@@ -206,7 +206,7 @@ a {
 .planning .col-right {
     flex-basis: 0;
     flex-grow: 1;
-    padding: 0;
+    padding: 0px;
 }
 
 /* Colonna di destra */
@@ -361,6 +361,7 @@ a {
 .benefits-title {
     color: white;
     text-align: center;
+    padding-bottom: 70px;
 }
 
 /* Titolo Benefits */
@@ -375,6 +376,12 @@ a {
     margin: 0px -12px;
 }
 
+/* Colonne sezione Benefits */
+.benefits .col-3 {
+    padding: 0px 12px;
+}
+
+/* Carta Benefits */
 .benefits-card {
     background-color: white;
     border-radius: 16px;
@@ -384,17 +391,20 @@ a {
     gap: 30px;
 }
 
+/* Titolo Carta Benefits */
 .benefits-card__head h3 {
     color: var(--violet);
-    font-size: 38px;
+    font-size: 62px;
 }
 
+/* Sottotitolo Carta Benefits */
 .benefits-card__body h4 {
     color: var(--violet);
-    font-size: 28px;
+    font-size: 24px;
     margin-bottom: 30px;
 }
 
+/* Paragrafo Carta Benefits */
 .benefits-card__body p {
     color: var(--light-grey);
     line-height: 24px;
