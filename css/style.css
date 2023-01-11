@@ -345,3 +345,27 @@ a {
 .author {
     font-weight: bold;
 }
+
+/* Sezione Benefits */
+.benefits {
+    padding-top: 75px;
+    padding-bottom: 65px;
+}
+
+/* Blocco titolo sezione Benefits */
+.benefits-title {
+    color: white;
+    text-align: center;
+}
+
+/* Titolo Benefits */
+.benefits-title h2 {
+    font-size: 32px;
+}
+
+/* Riga sezione Benefits */
+.benefits .row {
+    flex-wrap: wrap;
+    row-gap: 24px;
+    margin: 0px -12px;
+}
