@@ -23,8 +23,8 @@
         gap: 20px;
     }
     /* Colonne sezione Planning */
-    .planning .col-40,
-    .planning .col-60 {
+    .planning .col-left,
+    .planning .col-right {
         flex-basis: 100%;
     }
 }

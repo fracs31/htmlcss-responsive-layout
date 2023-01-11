@@ -37,8 +37,9 @@ a {
 
 /* Container piccolo */
 .container-small {
-    max-width: 875px;
+    max-width: 944px;
     margin: 0px auto;
+    padding: 0px 32px;
 }
 
 /* Bottone */
@@ -190,14 +191,21 @@ a {
     padding-bottom: 65px;
 }
 
-/* Colonna grande il 60% */
-.col-60 {
-    flex-basis: 60%;
+/* Riga nel Planning Box */
+.planning-box .row {
+    gap: 60px;
 }
 
-/* Colonna grande il 40% */
-.col-40 {
-    flex-basis: 40%;
+/* Colonne nella sezione Planning */
+.planning .col-left,
+.planning .col-right {
+    flex-basis: 0;
+    flex-grow: 1;
+    padding: 0;
+}
+
+/* Colonna di destra */
+.col-right {
     display: flex;
     flex-direction: column;
     justify-content: flex-end;
@@ -220,38 +228,38 @@ a {
     width: 100%;
 }
 
-/* Carta Planning presente nella colonna al 60% */
-.col-60 .planning-card {
+/* Carta Planning presente nella colonna a sinistra  */
+.col-left .planning-card {
     color: white;
     gap: 115px;
 }
 
-/* Testo Carta Planning nella colonna al 60%  */
-.col-60 .planning-card__text {
+/* Testo Carta Planning nella colonna a sinistra */
+.col-left .planning-card__text {
     gap: 60px;
 }
 
-/* Carta nella colonna al 40% */
-.col-40 .planning-card {
+/* Carta nella colonna di destra */
+.col-right .planning-card {
     text-align: center;
     background-color: white;
     border-radius: 36px;
     padding: 10px;
 }
 
-/* Testo Carta Planning nella colonna al 40%  */
-.col-40 .planning-card__text {
+/* Testo Carta Planning nella colonna di destra */
+.col-right .planning-card__text {
     align-items: center;
     gap: 20px;
 }
 
 /* Paragrafo Carta Planning */
-.col-40 .planning-card__text p {
+.col-right .planning-card__text p {
     font-style: italic;
 }
 
 /* Span a forma di cerchio */
-.col-40 .planning-card__text span {
+.col-right .planning-card__text span {
     background-color: var(--violet);
     border-radius: 999px;
     display: block;
