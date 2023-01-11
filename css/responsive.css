@@ -35,6 +35,14 @@
     .about-us__img span {
         font-size: 48px;
     }
+    /* Start */
+    .start {
+        padding: 65px 0px;
+    }
+    /* Footer */
+    .page-footer {
+        padding: 40px 0px;
+    }
 }
 
 /* Smartphone */

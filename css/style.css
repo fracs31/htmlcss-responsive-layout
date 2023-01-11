@@ -488,7 +488,7 @@ a {
 
 /* Sezione Start */
 .start {
-    padding: 65px 0px;
+    padding: 65px 300px;
 }
 
 /* Box Start */
@@ -528,4 +528,17 @@ a {
 .start-box h5 {
     font-size: 14px;
     font-weight: normal;
+}
+
+/* Footer */
+.page-footer {
+    background-color: var(--light-black);
+    color: white;
+    padding: 40px 350px;
+    text-align: center;
+}
+
+/* Primo paragrafo del Footer */
+.page-footer p:first-child {
+    padding-bottom: 70px;
 }
