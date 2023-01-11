@@ -485,3 +485,8 @@ a {
     color: var(--violet);
     padding-bottom: 40px;
 }
+
+/* Sezione Start */
+.start {
+    padding: 65px 0px;
+}
