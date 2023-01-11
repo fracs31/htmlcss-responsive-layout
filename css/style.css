@@ -58,7 +58,12 @@ a {
 .blue {
     background-color: var(--blue);
     color: white;
-    padding: 10px 15px;
+}
+
+/* Bottone viola */
+.violet {
+    background-color: var(--violet);
+    color: white;
 }
 
 /* Header */
@@ -368,4 +373,29 @@ a {
     flex-wrap: wrap;
     row-gap: 24px;
     margin: 0px -12px;
+}
+
+.benefits-card {
+    background-color: white;
+    border-radius: 16px;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.benefits-card__head h3 {
+    color: var(--violet);
+    font-size: 38px;
+}
+
+.benefits-card__body h4 {
+    color: var(--violet);
+    font-size: 28px;
+    margin-bottom: 30px;
+}
+
+.benefits-card__body p {
+    color: var(--light-grey);
+    line-height: 24px;
 }
