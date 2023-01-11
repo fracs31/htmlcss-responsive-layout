@@ -389,6 +389,7 @@ a {
     display: flex;
     flex-direction: column;
     gap: 30px;
+    height: 100%;
 }
 
 /* Titolo Carta Benefits */

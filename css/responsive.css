@@ -36,7 +36,8 @@
 /* Smartphone */
 @media only screen and (max-width: 600px) {
     /* Colonne in generale */
-    [class^="col-"] {
+    [class^="col-"],
+    .benefits .col-3 {
         flex-basis: 100%;
     }
     /* Carta dei feedback */
