@@ -490,3 +490,42 @@ a {
 .start {
     padding: 65px 0px;
 }
+
+/* Box Start */
+.start-box {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    gap: 35px;
+    color: white;
+}
+
+/* Sottotitolo Start Box */
+.start-box h2 {
+    font-size: 14px;
+    color: #C6C4F0;
+}
+
+/* Sottotitolo Start Box */
+.start-box h3 {
+    font-size: 32px;
+}
+
+/* Sottotitolo Start Box */
+.start-box h4 {
+    font-size: 82px;
+    color: var(--orange);
+}
+/* Bottone Start Box */
+.start-box .button {
+    align-self: center;
+    width: max-content;
+    padding: 25px 80px;
+    color: var(--violet);
+}
+
+/* Sottotitolo Start Box */
+.start-box h5 {
+    font-size: 14px;
+    font-weight: normal;
+}
