@@ -327,10 +327,11 @@ a {
 
 /* Immagine della Carta Feedback */
 .feedback-card__img img {
-    width: 100%;
+    width: 200px;
     border-radius: 999px;
     aspect-ratio: 1/1;
     object-fit: cover;
+    object-position: center;
 }
 
 /* Testo della Carta Feedback */
